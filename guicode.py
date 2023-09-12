@@ -5,9 +5,9 @@ import RPi.GPIO
 RPi.GPIO.setmode(RPi.GPIO.BCM)
 
 ### LED PINS ###
-Red= LED(17)
-White= LED(23)
-Green= LED(27)
+Red= LED(15)
+White= LED(27)
+Green= LED(23)
 
 ### GUI DEFINITIONS ###
 win=Tk()
